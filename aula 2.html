@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Area do quadrado</title>
+        <script>
+            function qdd(){
+            var vbqq = document.dados.bqdd.value;
+            var vaqq = document.dados.aqdd.value;
+            if ((vbqq == 0)||(vaqq == 0)){
+                alert("Digite o valor da base e da altura do quadrado");
+            }else{
+                var areaqq=(vbqq*vaqq);
+                alert("O VALOR DA AREA É "+areaqq+"M²");}}
+        </script>
+        </head>
+    <body>
+    <form name="dados">
+        <img src="C:\Gabriel Lisboa\OIP.webp" width="150" height="150"><br><br>
+        <label>Digite o valor da base do quadrado</label><br>
+        <input type="text" name="bqdd" value="0"><br><br>
+        <label>Digite o valor da altura do quadrado</label><br>
+        <input type="text" name="aqdd" value="0"><br><br>
+        <input type="button" name="bcq" value="Calcular" onclick="qdd()">
+    </form>
+        </body>
+</html> 
